@@ -1,0 +1,65 @@
+body {
+  background:#ffffff;
+  font-family: arial;
+  margin: 0;
+}
+.title {
+  background: #ff7700;
+  padding: 20px 0px 25px 0px;
+  margin: 0;
+  color: #ffffff;
+  text-align: center;
+  font-size: 40px;
+}
+#inputField {
+  text-align: center;
+  font-size: 14pt;
+  padding: 12px 20px;
+}
+button {
+  padding: 10px 25px;
+  text-align: center;
+  justify-content: center;
+  background-color: #5e2c00;
+  border-radius: 12px;
+  border: 2px solid #ff7700;
+  box-shadow: 0 5px #999;
+  background: transparent;
+  cursor: pointer;
+  font-size: 25px;
+}
+button:hover {
+  background-color: #ffba7d;
+}
+button:focus {
+  outline:0;
+}
+#centerButton {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+#output {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-size: 30pt;
+}
+.center {
+  display: flex;
+  justify-content: center;
+}
+a {
+  color: #ff7700;
+}
+@media screen and (max-width: 800px) {
+  #HomeText {
+    font-size: 80px;
+  }
+  button {
+    font-size: 60px;
+  }
+  #output {
+    font-size: 60pt;
+  }
+}
